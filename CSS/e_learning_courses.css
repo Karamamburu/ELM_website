@@ -3,6 +3,16 @@
     top: 0px;
     z-index: 100;
 }
+.header-right-part {
+    display: flex;
+    flex-direction: row;
+}
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
 .company-name-titles {
     margin-top: 80px;
     margin-left: auto;
@@ -10,31 +20,6 @@
     width: 70%;
     text-align: center;
     margin-bottom: 50px;
-}
-/* body {
-
-    /* background:
-    #eaeaea
-     url(../Accets/bg_image_pattern.png)
-     top
-     no-repeat
-     fixed;
-   } */ 
-.main-header {
-    font-size: 60px;
-}
-.sub-header {
-    margin-bottom: 30px;
-}
-.carousel {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-    min-width: 400px;
-    max-width: 60%;
-}
-.carousel-item {
-    border: 1px solid #000000;
 }
 .footer-flex-elements {
     display: flex;
@@ -78,39 +63,31 @@
     border-radius: 200px;
     padding-bottom: 10px;
 }
+.social-networks-labels {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
 .login-tab {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
     justify-content: space-between;
 }
-.header-right-part {
-    display: flex;
-    flex-direction: row;
+.form-blocks {
+    margin-top: 10px;
 }
-.user-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
-    margin-left: 10px;
+.form-floating {
+    margin-bottom: 10px;
 }
-.card-group {
-    max-width: 80%;
+.form-group-write-us {
     margin-left: auto;
     margin-right: auto;
-    gap: 20px;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    width: 50%;
 }
-.card-title {
-    padding: 10px;
-}
-.card {
-    min-width: 200px;
-    border: none;
-    border: 1px solid #e7e7e7;
-}
-.card-img-top {
-    border-radius: 15px;
-    padding: 0px;
+.form-group-write-us-title {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
